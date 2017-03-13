@@ -1,0 +1,25 @@
+<html><head><title>S3DR_SetTextureCoordinates</title></head>
+<body bgcolor="#FFFFDF" link="#009999" vlink="#006666" alink="#006666">
+<font face="Arial" size="2"><p align="center"><b><font size="4">S3DR_SetTextureCoordinates()</font></b></p>
+<p><b>Syntax</b></p><blockquote>
+<font color="#006666"><b>S3DR_SetTextureCoordinates</b></font>(TU1.f,TV1.f,TU2.f,TV2.f,TU3.f,TV3.f,TU4.f,TV4.f)
+</blockquote><p><b>Description</b></p><blockquote>
+This command sets the texture coordinates for the selected Texture. 
+<br>The value of a texture coordinate is from 0.0 To 1.0.
+<br>You can calculate the texture coordinate with that formula:
+<br>tu.f=X.l/SpriteWidth.l  
+<br>tv.f=Y.l/SpriteHeight.l
+<br>
+<br>&nbsp;tu1,tv1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tu2,tv2
+<br>&nbsp;&nbsp;&nbsp;+--------------+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>&nbsp;&nbsp;&nbsp;+--------------+
+<br>&nbsp;tu3,tv3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tu4,tv4
+<br>
+<br>The default is S3DR_SetTextureCoordinates(0,0,1,0,0,1,1,1). 
+<br>
+<br>This command must be inside of a S3DR_BeginReal3D()...S3DR_EndReal3D() block. 
+<br></Blockquote><p><b>Supported OS </b><Blockquote>Windows</Blockquote></p><center><a href=index.html>Sprite3DReal - Index</a></center>

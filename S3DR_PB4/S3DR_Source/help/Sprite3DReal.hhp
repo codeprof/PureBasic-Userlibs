@@ -1,0 +1,45 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Sprite3DReal.chm
+Contents file=Table of Contents.hhc
+Default topic=index.html
+Display compile progress=No
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x407 Deutsch (Deutschland)
+
+
+[FILES]
+S3DR_BeginReal3D.html
+S3DR_ClearScreenAndZBuffer.html
+S3DR_CreateZBuffer.html
+S3DR_Draw3D.html
+S3DR_DrawBillboard.html
+S3DR_EndReal3D.html
+S3DR_FreeZBuffer.html
+S3DR_GetCameraAngleX.html
+S3DR_GetCameraAngleY.html
+S3DR_GetCameraAngleZ.html
+S3DR_GetCameraX.html
+S3DR_GetCameraY.html
+S3DR_GetCameraZ.html
+S3DR_MoveCamera.html
+S3DR_RotateCamera.html
+S3DR_SelectTexture.html
+S3DR_SetTextureCoordinates.html
+S3DR_UseFog.html
+S3DR_SetCullMode.html
+S3DR_SetFillMode.html
+S3DR_SetViewPort.html
+S3DR_UseDither.html
+S3DR_UseTransparency.html
+S3DR_SetCameraRangeAndFOV.html
+S3DR_DrawMesh.html
+S3DR_FreeMesh.html
+S3DR_LoadMesh.html
+S3DR_TestCollision.html
+S3DR_SetDiffuseColors.html
+S3DR_RotateTexture.html
+S3DR_ScrollTexture.html
+[INFOTYPES]
+

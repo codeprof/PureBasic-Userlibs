@@ -1,0 +1,66 @@
+;
+; Langage used to code th library: ASM or C
+ASM
+;
+; Number of windows DLL than the library need
+0
+; Library type (Can be OBJ or LIB)
+;
+OBJ
+;
+; Number of PureBasic library needed by the library
+2
+Sprite
+Sprite3D
+; Help directory name
+;
+0
+;
+; Library functions (FunctionName, Arg1, Arg2, ...)
+;
+S3DP_SetFillMode,Long
+Long
+S3DP_UseTransparency,Long
+Long
+S3DP_UseDither,Long
+Long
+S3DP_SetCullMode,Long
+Long
+S3DP_SetViewPort,Long,Long,Long,Long
+Long
+S3DP_GetD3DDevice
+Long
+S3DR_CreateZBuffer
+Long
+S3DR_StartReal3D
+Long
+S3DR_StopReal3D
+Long
+S3DR_UseTexture,Long
+Long
+S3DR_SetTextureCoordinates,float,float,float,float,float,float,float,float
+Long | StdCall
+S3DR_Draw3D,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float
+Long | StdCall
+S3DR_ClearScreenAndZBuffer,Long
+Long
+S3DR_FreeZBuffer
+Long
+S3DR_RotateCamera,Float,Float,Float
+Long | StdCall
+S3DR_MoveCamera,Float,Float,Float
+Long | StdCall
+S3DR_GetCameraX
+Float
+S3DR_GetCameraY
+Float
+S3DR_GetCameraZ
+Float
+S3DR_GetCameraAngleX
+Float
+S3DR_GetCameraAngleY
+Float
+S3DR_GetCameraAngleZ
+Float
+S3DR_UseFog,Long,Float,Float,Long
+Long

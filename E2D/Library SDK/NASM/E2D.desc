@@ -1,0 +1,36 @@
+;
+; Langage used to code th library: ASM or C
+ASM
+;
+; Number of windows DLL than the library need
+0
+; Library type (Can be OBJ or LIB)
+;
+OBJ
+;
+; Number of PureBasic library needed by the library
+3
+Sprite
+2DDrawing
+Gadget
+; Help directory name
+;
+E2D.CHM
+
+InitPointFast
+InitFunction
+
+FreePointFast
+EndFunction
+
+CurrentBufferOutput () - Returns the OutputID of the current Buffer
+Long
+
+GadgetOutput,Long (#Gadget) - Returns the OutputID of the declared Gadget.
+Long
+
+DesktopOutput () - Returns the OutputID of the Desktop.
+Long
+
+PointFast,Long,Long (X,Y) - Returns the color of the declared pixel.
+Long

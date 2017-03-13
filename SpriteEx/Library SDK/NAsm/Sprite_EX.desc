@@ -1,0 +1,74 @@
+;
+; Langage used to code th library: ASM or C
+ASM
+;
+; Number of windows DLL than the library need
+0
+; Library type (Can be OBJ or LIB)
+;
+LIB
+;
+; Number of PureBasic library needed by the library
+1
+Sprite
+; Help directory name
+;
+0
+
+;
+; Library functions (FunctionName, Arg1, Arg2, ...)
+;
+
+GetSpriteExVersion ()
+String
+
+CopyScreenPartTrans,Long,Long,long,long,long,Long,Long (XSrc,YSrc,Width,Height,XDest,YDest,RGBColor)
+Long
+
+GetGFXDriver ()
+String
+
+GetGFXCard ()
+String
+
+IsWindowedMode ()
+Long
+
+GetScreenWidth ()
+Long
+
+GetScreenHeight ()
+Long
+
+CopyBuffer ()
+Long
+
+RestoreScreen ()
+Long
+
+CopyBufferEx,Long,Long (width,height)
+Long
+
+SwapBuffers ()
+Long
+
+DisplayDirect ()
+Long
+
+StopDisplayDirect ()
+Long
+
+GetMonitorFreq ()
+Long
+
+WaitForVSync ()
+Long
+
+CopyScreenPart,Long,Long,long,long,long,Long (XSrc,YSrc,Width,Height,XDest,YDest)
+Long
+
+ColorBox,Long,Long,Long,Long,Long (X,Y,Width,Height,Color)
+Long
+
+RGBColor,Long,Long,Long,Long (PixelFormat,Red,Green,Blue)
+Long

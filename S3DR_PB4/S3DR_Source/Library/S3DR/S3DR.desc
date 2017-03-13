@@ -1,0 +1,95 @@
+ASM
+0
+LIB
+2
+Sprite
+Sprite3D
+Sprite3DReal.chm
+S3DR_SetCameraPos,float,float,float (X.f,Y.f,Z.f) - moves the camera absolute
+Long | StdCall
+S3DR_SetCameraAngles,float,float,float (AngleX.f,AngleY.f,AngleZ.f) - rotates the camera absolute
+Long | StdCall
+S3DR_SetFillMode,Long (Fillmode.l) - changes the Fillmode
+Long
+S3DR_UseTransparency,Long (Transparency.l) - enables or disables transparency
+Long
+S3DR_UseDither,Long (UseDither.l) - enables or disables dithering
+Long
+S3DR_SetCullMode,Long (Cullmode.l) - changes the Cullmode
+Long
+S3DR_SetViewPort,Long,Long,Long,Long (X.l,Y.l,Width.l,Height.l) - changes the ViewPort
+Long
+S3DR_GetD3DDevice ()
+Long
+S3DR_GetZBuffer ()
+Long
+S3DR_CreateZBuffer,[Long], ([DeviceType]) - Create a Z-Buffer
+Long
+S3DR_BeginReal3D () - Starts the 3D-Engine
+Long
+S3DR_EndReal3D () - Stops the 3D-Engine
+Long
+S3DR_SelectTexture,Long (#Sprite) - selects the sprite
+Long
+S3DR_SetTextureCoordinates,float,float,float,float,float,float,float,float (TU1.f,TV1.f,TU2.f,TV2.f,TU3.f,TV3.f,TU4.f,TV4.f) - sets the texture coordinates
+Long | StdCall
+S3DR_Draw3D,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float (X1.f,Y1.f,Z1.f,X2.f,Y2.f,Z2.f,X3.f,Y3.f,Z3.f,X4.f,Y4.f,Z4.f) - Draws the selected sprite
+Long
+S3DR_DrawBillboard,Float,Float,Float,Float,Float (X.f,Y.f,Z.f,Width.f,Height.f) - Draws a Billboard
+Long | StdCall
+S3DR_ClearScreenAndZBuffer,Long (RGB) - Clears the ZBuffer and the Screen
+Long
+S3DR_FreeZBuffer () - Frees the ZBuffer
+Long
+S3DR_RotateCamera,Float,Float,Float (X.f,Y.f,Z.f) - rotates the camera relative
+Long | StdCall
+S3DR_MoveCamera,Float,Float,Float (X.f,Y.f,Z.f) - moves the camera relative
+Long | StdCall
+S3DR_GetCameraX () - returns the X-position of the Camera
+Float
+S3DR_GetCameraY () - returns the Y-position of the Camera
+Float
+S3DR_GetCameraZ () - returns the Z-position of the Camera
+Float
+S3DR_GetCameraAngleX () - returns the X-angle of the Camera
+Float
+S3DR_GetCameraAngleY () - returns the Y-angle of the Camera
+Float
+S3DR_GetCameraAngleZ () - returns the Z-angle of the Camera
+Float
+S3DR_UseFog,Long,Float,Float,Long (UseFog.l,FogStart.f,FogEnd.f,FogColor.l) - enables or disables fog
+Long
+S3DR_TestCollision,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float,Float (O1X1.f,O1Y1.f,O1Z1.f,O1X2.f,O1Y2.f,O1Z2.f,O1X3.f,O1Y3.f,O1Z3.f,O1X4.f,O1Y4,O1Z4.f,O2X1.f,O2Y1.f,O2Z1.f,O2X2.f,O2Y2.f,O2Z2.f,O2X3.f,O2Y3.f,O2Z3.f,O2X4.f,O2Y4,O2Z4.f) - Checks for Box-Collision
+Long | StdCall
+S3DR_SetDiffuseColors,Long,Long,Long,Long (Color1,Color2,Color3,Color4) - Sets the Diffusecolors for the selected Texture
+Long
+S3DR_SetCameraRangeAndFOV,Float,Float,Float (near.f,far.f,FOV.f) - changes the near- and far plane and the FOV
+Long | StdCall
+S3DR_LoadMesh,string (File$) - loads a .s3dr mesh
+Long | StdCall
+S3DR_FreeMesh,long (Mesh) - frees the mesh
+Long | StdCall
+S3DR_DrawMesh,long,float,float,float,float,float,float,[float,float,float], (Mesh,x.f,y.f,z.f,rx.f,ry.f,rz.f[,sx.f,sy.f,sz.f]) - draws the mesh
+Long | StdCall
+S3DR_CreateMesh_SetTriangleTextureCoords,float,float,float,float,float,float (tu1.f,tv1.f,tu2.f,tv2.f,tu3.f,tv3.f) - sets the texture coordinates for the triangle
+Long | StdCall
+S3DR_CreateMesh_SetQuadTextureCoords,float,float,float,float,float,float,float (tu1.f,tv1.f,tu2.f,tv2.f,tu3.f,tv3.f,tu4.f,tv4.f) - sets the texture coordinates for the quad
+Long | StdCall
+S3DR_CreateMesh_AddTriangle,float,float,float,float,float,float,float,float,float (x1.f,y1.f,z1.f,x2.f,y2.f,z2.f,x3.f,y3.f,z3.f) - adds the triangle to the mesh
+Long | StdCall
+S3DR_CreateMesh_AddQuad,float,float,float,float,float,float,float,float,float,float,float,float (x1.f,y1.f,z1.f,x2.f,y2.f,z2.f,x3.f,y3.f,z3.f,x4.f,y4.f,z4.f) - adds the quad to the mesh
+Long | StdCall
+S3DR_StopCreateMesh () - stops createing a mesh
+Long | StdCall
+S3DR_StartCreateMesh () - starts creating a mesh
+Long | StdCall
+S3DR_RotateTexture,float (Angle) - rotates the texture
+Long | StdCall
+S3DR_ScrollTexture,float,float (ScrollH.f,ScrollV.f) - scrolls the texture
+Long | StdCall
+S3DR_CompressSprite,long (#Sprite) - compress the declared sprite
+Long | StdCall
+S3DR_FreeS3DR
+EndFunction
+
+

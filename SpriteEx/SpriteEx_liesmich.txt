@@ -1,0 +1,38 @@
+SpriteEx-Library v1.11		25. April 04
+~~~~~~~~~~~~~~~~~~~~~
+
+
+SpriteEx ist eine kleine, in Assembler geschriebene, Erweiterung für die Sprite-Library von PureBasic.
+Die SpriteEx Library wurde erfolgreich unter Win2000 und WinXP getestet.
+
+
+Haftungsausschluss:
+Für Fehler oder Schäden, die durch die Benutzung dieser Software eventuell entstehen könnten, übernimmt der
+Autor keine Haftung. Die Benutzung dieser Software geschieht auf eigene Gefahr.
+
+
+Veränderungen:
+~~~~~~~~~~~~~
+
+Hinzugefügt:	ScrollH(Pixel)
+Hinzugefügt:	ScrollV(Pixel)
+Hinzugefügt:	CopyScreenPartTrans(XSrc,YSrc,Width,Height,XDest,YDest,Color)
+Hinzugefügt:	RestoreScreen()
+Hinzugefügt:	GetGFXCard()
+Hinzugefügt:	GetGFXDriver()
+Hinzugefügt:	GetScreenWidth()
+Hinzugefügt:	GetScreenHeight()
+Hinzugefügt:	IsWindowedMode()
+Hinzugefügt:	CopyBuffer()
+Hinzugefügt:	CopyBufferEx(width,height)
+Hinzugefügt:	Englische Befehlsübersicht
+Verbessert:	GetMonitorFreq() nutzt nun DX oder WinAPI
+Verbessert:	SwapBuffers() funktioniert jetzt auch mit der OGRE-Engine
+Entfernt:	Deutsche Befehlsübersicht
+
+Kontakt:
+Email: MoebiusStefan@AOL.COM
+
+Dank an:
+-André, der diese Library auf seiner HP veröffentlicht hat.
+-Danilo,der die tollen PureDX Beispiele geschrieben hat.

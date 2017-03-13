@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sprite3DReal">
+		<param name="Local" value="index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_BeginReal3D">
+			<param name="Local" value="S3DR_BeginReal3D.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_ClearScreenAndZBuffer">
+			<param name="Local" value="S3DR_ClearScreenAndZBuffer.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_CreateZBuffer">
+			<param name="Local" value="S3DR_CreateZBuffer.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_Draw3D">
+			<param name="Local" value="S3DR_Draw3D.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_DrawBillboard">
+			<param name="Local" value="S3DR_DrawBillboard.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_EndReal3D">
+			<param name="Local" value="S3DR_EndReal3D.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_FreeZBuffer">
+			<param name="Local" value="S3DR_FreeZBuffer.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_GetCameraAngleX">
+			<param name="Local" value="S3DR_GetCameraAngleX.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_GetCameraAngleY">
+			<param name="Local" value="S3DR_GetCameraAngleY.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_GetCameraAngleZ">
+			<param name="Local" value="S3DR_GetCameraAngleZ.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_GetCameraX">
+			<param name="Local" value="S3DR_GetCameraX.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_GetCameraY">
+			<param name="Local" value="S3DR_GetCameraY.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_GetCameraZ">
+			<param name="Local" value="S3DR_GetCameraZ.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_MoveCamera">
+			<param name="Local" value="S3DR_MoveCamera.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetCameraPos">
+			<param name="Local" value="S3DR_SetCameraPos.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_RotateCamera">
+			<param name="Local" value="S3DR_RotateCamera.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetCameraAngles">
+			<param name="Local" value="S3DR_SetCameraAngles.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SelectTexture">
+			<param name="Local" value="S3DR_SelectTexture.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetTextureCoordinates">
+			<param name="Local" value="S3DR_SetTextureCoordinates.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_RotateTexture">
+			<param name="Local" value="S3DR_RotateTexture.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_ScrollTexture">
+			<param name="Local" value="S3DR_ScrollTexture.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_UseFog">
+			<param name="Local" value="S3DR_UseFog.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetCullMode">
+			<param name="Local" value="S3DR_SetCullMode.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetFillMode">
+			<param name="Local" value="S3DR_SetFillMode.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetViewPort">
+			<param name="Local" value="S3DR_SetViewPort.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_UseDither">
+			<param name="Local" value="S3DR_UseDither.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_UseTransparency">
+			<param name="Local" value="S3DR_UseTransparency.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetCameraRangeAndFOV">
+			<param name="Local" value="S3DR_SetCameraRangeAndFOV.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_DrawMesh">
+			<param name="Local" value="S3DR_DrawMesh.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_FreeMesh">
+			<param name="Local" value="S3DR_FreeMesh.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_LoadMesh">
+			<param name="Local" value="S3DR_LoadMesh.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_TestCollision">
+			<param name="Local" value="S3DR_TestCollision.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_SetDiffuseColors">
+			<param name="Local" value="S3DR_SetDiffuseColors.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_StartCreateMesh">
+			<param name="Local" value="S3DR_StartCreateMesh.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_StopCreateMesh">
+			<param name="Local" value="S3DR_StopCreateMesh.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_CreateMesh_SetTriangleTextureCoords">
+			<param name="Local" value="S3DR_CreateMesh_SetTriangleTextureCoords.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_CreateMesh_AddTrinagle">
+			<param name="Local" value="S3DR_CreateMesh_AddTriangle.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_CreateMesh_SetQuadTextureCoords">
+			<param name="Local" value="S3DR_CreateMesh_SetQuadTextureCoords.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="S3DR_CreateMesh_AddQuad">
+			<param name="Local" value="S3DR_CreateMesh_AddQuad.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Readme">
+		<param name="Local" value="Readme.txt">
+		<param name="ImageNumber" value="39">
+		</OBJECT>
+</UL>
+</BODY></HTML>
